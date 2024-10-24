@@ -1,5 +1,5 @@
-passagemath: General purpose mathematical software system in Python, a fork of SageMath
-=======================================================================================
+passagemath: General purpose mathematical software system in Python, a pip-installable modularized fork of SageMath
+===================================================================================================================
 
 passagemath is open source mathematical software released under the GNU General Public
 Licence GPLv2+.
