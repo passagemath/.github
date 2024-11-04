@@ -14,10 +14,16 @@ It is a fork of [SageMath](https://www.sagemath.org/), created in October 2024 w
 * developing a port to [Pyodide](https://pyodide.org/en/stable/) for serverless deployment with Javascript,
 * developing a native Windows port.
 
+passagemath community
+---------------------
+
+Join [passagemath.discourse.group](https://passagemath.discourse.group/)
+
 passagemath in the mathematical software landscape
 --------------------------------------------------
 
-The passagemath project is a major integrating force in the mathematical software landscape. Follow the ticket numbers to see how you can help; for example, by surveying software, building or extending interfaces, or contributing to distribution packaging.
+The passagemath project is a major integrating force in the mathematical software landscape. 
+There are many ways to contribute: Follow the #issue numbers to see how you can help; for example, by surveying software, building or extending interfaces, or contributing to distribution packaging.
 
 |                                    | **In the passagemath distribution**         | Not in the passagemath distribution |
 |------------------------------------|:------------------------------------------:|:----------------------------------:|
