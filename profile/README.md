@@ -17,7 +17,9 @@ It is a fork of [SageMath](https://www.sagemath.org/), created in October 2024 w
 passagemath community
 ---------------------
 
-Join [passagemath.discourse.group](https://passagemath.discourse.group/)
+Join [passagemath.discourse.group](https://passagemath.discourse.group/).
+
+**Invitations to the passagemath GitHub organizations**: If you received an invitation to join the organization, note that we send out courtesy invitations to the organization whenever we merge your nontrivial contributions that were accepted into the upstream SageMath project into the passagemath codebase. Becoming a member of the passagemath GitHub organization is free and does not imply any obligations other than to adhere to the organization's Code of Conduct.
 
 passagemath in the mathematical software landscape
 --------------------------------------------------
