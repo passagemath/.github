@@ -1,25 +1,44 @@
 passagemath: General purpose mathematical software system in Python, a pip-installable modularized fork of SageMath
 ===================================================================================================================
 
-passagemath is open source mathematical software released under the GNU General Public
-Licence GPLv2+.
+[passagemath](https://github.com/passagemath/passagemath) is open source mathematical
+software in Python, released under the GNU General Public Licence GPLv2+.
 
-It is a fork of [SageMath](https://www.sagemath.org/), created in October 2024 with the following goals:
+It is a fork of [SageMath](https://www.sagemath.org/), which has been developed 2005-2025
+under the motto "Creating a Viable Open Source Alternative to Magma, Maple, Mathematica,
+and MATLAB".
 
-* providing [modularized installation with pip](https://github.com/sagemath/sage/issues/29705),
+The passagemath fork was created in October 2024 with the following goals:
+
+* providing modularized installation with pip, thus completing a [major project started in 2020 in the Sage codebase](https://github.com/sagemath/sage/issues/29705),
 * establishing first-class membership in the scientific Python ecosystem,
 * giving [clear attribution of upstream projects](https://groups.google.com/g/sage-devel/c/6HO1HEtL1Fs/m/G002rPGpAAAJ),
+* providing independently usable Python interfaces to upstream libraries,
+* providing [platform portability and integration testing services](https://github.com/passagemath/passagemath/issues/704) to upstream projects,
 * inviting collaborations with upstream projects,
-* building [a professional, respectful, inclusive community](https://groups.google.com/g/sage-devel/c/xBzaINHWwUQ),
+* [building a professional, respectful, inclusive community](https://groups.google.com/g/sage-devel/c/xBzaINHWwUQ),
 * developing a port to [Pyodide](https://pyodide.org/en/stable/) for serverless deployment with Javascript,
 * developing a native Windows port.
+
+[Full documentation](https://doc.sagemath.org/html/en/index.html) is available online.
+
 
 passagemath community
 ---------------------
 
-Join [passagemath.discourse.group](https://passagemath.discourse.group/).
+Join [passagemath.discourse.group](https://passagemath.discourse.group/) for help and discussions.
+
+Join the BlueSky platform and follow [@passagemath.org](https://bsky.app/profile/passagemath.org) to receive announcements.
+
+[People all around the globe](https://www.sagemath.org/development-map.html) have contributed to the
+development of SageMath since 2005, and hence of passagemath.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how you can contribute.
+
+passagemath is a major integrating force in the [mathematical software landscape](https://github.com/passagemath#passagemath-in-the-mathematical-software-landscape).
 
 **Invitations to the passagemath GitHub organizations**: If you received an invitation to join the organization, note that we send out courtesy invitations to the organization whenever we merge your nontrivial contributions that were accepted into the upstream SageMath project into the passagemath codebase. Becoming a member of the passagemath GitHub organization is free and does not imply any obligations other than to adhere to the organization's Code of Conduct.
+
 
 passagemath in the mathematical software landscape
 --------------------------------------------------
@@ -48,3 +67,33 @@ There are many ways to contribute: Follow the #issue numbers to see how you can 
 |Downstream deployments            | [Gitpod](https://github.com/sagemath/trac_to_gh/wiki/ReleaseTours-sage-9.6#Sage-development-in-the-cloud-with-Gitpod) [#33113](https://github.com/sagemath/sage/issues/33113) | [Running SageMath in the cloud](https://doc.sagemath.org/html/en/installation/): [CoCalc](https://cocalc.com/?utm_source=trac.sagemath.org), [SageCell](https://sagecell.sagemath.org/), [Binder](https://github.com/sagemath/sage-binder-env)
 |Downstream of downstream          | Devcontainers [#33671](https://github.com/sagemath/sage/issues/33671), [#34363](https://github.com/sagemath/sage/issues/34363)
 
+
+Full installation of passagemath from binary wheels on PyPI
+-----------------------------------------------------------
+
+passagemath attempts to support all major Linux distributions and recent versions of
+macOS. Use on Windows currently requires the use of Windows Subsystem for Linux or
+virtualization.
+
+Complete sets of binary wheels are provided on PyPI for Python versions 3.9.x-3.12.x.
+Python 3.13.x is also supported, but some third-party packages are still missing wheels,
+so compilation from source is triggered for those.
+
+Unless you need to install passagemath into a specific existing environment, we recommend
+to create and activate a fresh virtual environment over a suitable Python (3.9.x-3.12.x),
+for example `~/passagemath-venv/`:
+
+            $ python3 --version
+            Python 3.12.7
+            $ python3 -m venv ~/passagemath-venv
+            $ source ~/passagemath-venv/bin/activate
+
+Then install the meta-package [![PyPI: passagemath-standard](https://img.shields.io/pypi/v/passagemath-standard.svg?label=passagemath-standard)](https://pypi.python.org/pypi/passagemath-standard)
+
+            $ pip install -v --prefer-binary passagemath-standard
+
+Start the Sage REPL:
+
+            $ sage
+
+Alternatively, use a Python or IPython REPL, or use a Python or Sage kernel in Jupyter.
