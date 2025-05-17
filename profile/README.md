@@ -37,7 +37,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how you can contribute.
 
 passagemath is a major integrating force in the [mathematical software landscape](https://github.com/passagemath#passagemath-in-the-mathematical-software-landscape).
 
-**Invitations to the passagemath GitHub organizations**: If you received an invitation to join the organization, note that we send out courtesy invitations to the organization whenever we merge your nontrivial contributions that were accepted into the upstream SageMath project into the passagemath codebase. Becoming a member of the passagemath GitHub organization is free and does not imply any obligations other than to adhere to the organization's Code of Conduct.
+**Invitations to the passagemath GitHub organization:** If you received an invitation to join the organization, note that we send out courtesy invitations to the organization whenever we merge your nontrivial contributions that were accepted into the upstream SageMath project into the passagemath codebase. Becoming a member of the passagemath GitHub organization is free and does not imply any obligations other than to adhere to the organization's Code of Conduct.
 
 
 passagemath in the mathematical software landscape
@@ -90,7 +90,7 @@ for example `~/passagemath-venv/`:
 For Python 3.13.x on any platform, and for any Python version on the Linux aarch64 (ARM)
 and macOS arm64 (Apple Silicon M1/M2/M3/M4) platforms,
 [some third-party packages are still missing wheels](https://github.com/passagemath/passagemath/issues/347).
-Build these wheels from source:
+Build these wheels from source using [![PyPI: passagemath-conf](https://img.shields.io/pypi/v/passagemath-conf.svg?label=passagemath-conf)](https://pypi.python.org/pypi/passagemath-conf)
 
     (passagemath-venv) $ export SAGE_CONF_TARGETS="fpylll gmpy2 lrcalc_python pplpy"
     (passagemath-venv) $ pip install --force-reinstall -v passagemath-conf
