@@ -41,7 +41,7 @@ passagemath is a major integrating force in the [mathematical software landscape
 
 * to contributors to the upstream SageMath project, in particular when we merge their nontrivial contributions that were accepted into SageMath into the passagemath codebase, as a courtesy,
 * to key stakeholders of upstream projects that passagemath depends on, as a gesture of appreciation and to extend an invitation to collaborate,
-* to authors and contributors of downstream packages that depend on SageMath / passagemath, as an invitation to he passagemath ecosystem,
+* to authors and contributors of downstream packages that depend on SageMath / passagemath, as an invitation to the passagemath ecosystem,
 * to downstream packagers.
 
 Becoming a member of the passagemath GitHub organization is free and does not imply any obligations other than to adhere to the organization's Code of Conduct.
