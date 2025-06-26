@@ -113,3 +113,15 @@ Start the Sage REPL:
     (passagemath-venv) $ sage
 
 Alternatively, use a Python or IPython REPL, or use a Python or Sage kernel in Jupyter.
+
+
+passagemath repositories
+------------------------
+
+The passagemath GitHub organization includes the following repositories:
+
+| Repository                                                                                                         | Contents                                                                     |
+|:-------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| [upstream-...](https://github.com/orgs/passagemath/repositories?type=all&q=upstream+sort%3Aname-asc)               | Repositories (forks) of upstream packages (dependencies of the Sage library) |
+| **[passagemath](https://github.com/passagemath/passagemath)**                                                      | **Main passagemath repository**                                              |
+| [passagemath-pkg-...](https://github.com/orgs/passagemath/repositories?type=all&q=passagemath-pkg+sort%3Aname-asc) | Repositories (forks) of downstream packages (depending on the Sage library)  |
