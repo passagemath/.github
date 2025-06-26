@@ -33,11 +33,13 @@ Join the BlueSky platform and follow [@passagemath.org](https://bsky.app/profile
 [People all around the globe](https://www.sagemath.org/development-map.html) have contributed to the
 development of SageMath since 2005, and hence of passagemath.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how you can contribute.
+See [CONTRIBUTING.md](https://github.com/passagemath/passagemath/blob/main/CONTRIBUTING.md) for how you can contribute.
 
 passagemath is a major integrating force in the [mathematical software landscape](https://github.com/passagemath#passagemath-in-the-mathematical-software-landscape).
 
-**Invitations to the passagemath GitHub organization:** If you received an invitation to join the organization, note that we send out invitations to the organization:
+### Invitations to the passagemath GitHub organization
+
+If you received an invitation to join the organization, note that we send out invitations to the organization:
 
 * to contributors to the upstream SageMath project, in particular when we merge their nontrivial contributions that were accepted into SageMath into the passagemath codebase, as a courtesy,
 * to key stakeholders of upstream projects that passagemath depends on, as a gesture of appreciation and to extend an invitation to collaborate,
