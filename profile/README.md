@@ -8,7 +8,8 @@ It is a fork of [SageMath](https://www.sagemath.org/), which has been developed 
 under the motto "Creating a Viable Open Source Alternative to Magma, Maple, Mathematica,
 and MATLAB".
 
-The passagemath fork was created in October 2024 with the following goals:
+The passagemath fork uses the motto "Creating a Free Passage Between the Scientific Python Ecosystem
+and Mathematical Software Communities." It was created in October 2024 with the following goals:
 
 * providing modularized installation with pip, thus completing a [major project started in 2020 in the Sage codebase](https://github.com/sagemath/sage/issues/29705),
 * establishing first-class membership in the scientific Python ecosystem,
@@ -81,11 +82,13 @@ Full installation of passagemath from binary wheels on PyPI
 -----------------------------------------------------------
 
 passagemath attempts to support all major Linux distributions and recent versions of
-macOS. Use on Windows currently requires the use of Windows Subsystem for Linux or
-virtualization.
+macOS. Use of the full functionality on Windows currently requires the use of Windows 
+Subsystem for Linux or virtualization.
 
 Complete sets of binary wheels are provided on PyPI for Python versions 3.9.x-3.13.x
 for Linux and macOS, both for the x86_64 and ARM architectures.
+Binary wheels for native Windows (x86_64) are gradually made available in the passagemath
+10.6.x series.
 
 Unless you need to install passagemath into a specific existing environment, we recommend
 to create and activate a fresh virtual environment over a suitable Python (3.9.x-3.13.x),
