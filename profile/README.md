@@ -42,8 +42,8 @@ passagemath is a major integrating force in the [mathematical software landscape
 
 If you received an invitation to join the organization, note that we send out invitations to the organization:
 
-* to contributors to the upstream SageMath project, in particular when we merge their nontrivial contributions that were accepted into SageMath into the passagemath codebase, as a courtesy,
 * to key stakeholders of upstream projects that passagemath depends on, as a gesture of appreciation and to extend an invitation to collaborate,
+* to contributors to the upstream SageMath project, in particular when we merge their nontrivial contributions that were accepted into SageMath into the passagemath codebase, as a courtesy,
 * to authors and contributors of downstream packages that depend on SageMath / passagemath, as an invitation to the passagemath ecosystem,
 * to downstream packagers.
 
