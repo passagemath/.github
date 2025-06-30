@@ -18,6 +18,7 @@ and Mathematical Software Communities." It was created in October 2024 with the 
 * providing [platform portability and integration testing services](https://github.com/passagemath/passagemath/issues/704) to upstream projects,
 * [inviting collaborations](https://github.com/passagemath/passagemath/issues/700) with upstream projects,
 * [building a professional, respectful, inclusive community](https://groups.google.com/g/sage-devel/c/xBzaINHWwUQ),
+* [empowering Sage users to participate in the scientific Python ecosystem](https://github.com/passagemath/passagemath/issues/248) by publishing packages,
 * developing a port to [Pyodide](https://pyodide.org/en/stable/) for serverless deployment with Javascript,
 * developing a [native Windows port](https://github.com/passagemath/passagemath/issues/1044).
 
