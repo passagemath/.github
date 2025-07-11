@@ -103,12 +103,11 @@ for example `~/passagemath-venv/`:
     $ python3 -m venv ~/passagemath-venv
     $ source ~/passagemath-venv/bin/activate
 
-For Python 3.13.x on any platform, and for any Python version on the Linux aarch64 (ARM)
-and macOS arm64 (Apple Silicon M1/M2/M3/M4) platforms,
+For the Linux aarch64 (ARM) platform,
 [some third-party packages are still missing wheels](https://github.com/passagemath/passagemath/issues/347).
 Build these wheels from source using [![PyPI: passagemath-conf](https://img.shields.io/pypi/v/passagemath-conf.svg?label=passagemath-conf)](https://pypi.python.org/pypi/passagemath-conf)
 
-    (passagemath-venv) $ export SAGE_CONF_TARGETS="fpylll gmpy2 lrcalc_python memory_allocator pplpy primecountpy"
+    (passagemath-venv) $ export SAGE_CONF_TARGETS="gmpy2 memory_allocator"
     (passagemath-venv) $ pip install --force-reinstall -v passagemath-conf
     (passagemath-venv) $ export PIP_FIND_LINKS=$(sage-config SAGE_SPKG_WHEELS)
     (passagemath-venv) $ export PIP_PREFER_BINARY=1
@@ -121,7 +120,7 @@ Start the Sage REPL:
 
     (passagemath-venv) $ sage
 
-Alternatively, use a Python or IPython REPL, or use a Python or Sage kernel in Jupyter.
+Alternatively, use a Python or IPython REPL, or use the Python kernel or the provided Sage kernel in Jupyter.
 
 
 Other installation modes and details
