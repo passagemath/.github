@@ -124,6 +124,16 @@ Start the Sage REPL:
 Alternatively, use a Python or IPython REPL, or use a Python or Sage kernel in Jupyter.
 
 
+Other installation modes and details
+------------------------------------
+
+The [passagemath/passagemath repository](https://github.com/passagemath/passagemath) README provides
+detailed instructions:
+
+- [Using the modularized distributions](https://github.com/passagemath/passagemath?tab=readme-ov-file#modularized-distributions)
+- [Building from source](https://github.com/passagemath/passagemath?tab=readme-ov-file#building-from-source-table-of-contents)
+- [Traditional installation from source as Sage-the-Distribution](https://github.com/passagemath/passagemath?tab=readme-ov-file#traditional-installation-from-source-as-sage-the-distribution)
+
 passagemath repositories
 ------------------------
 
