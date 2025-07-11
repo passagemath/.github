@@ -11,16 +11,17 @@ and MATLAB".
 The passagemath fork uses the motto "Creating a Free Passage Between the Scientific Python Ecosystem
 and Mathematical Software Communities." It was created in October 2024 with the following goals:
 
-* providing modularized installation with pip, thus completing a [major project started in 2020 in the Sage codebase](https://github.com/sagemath/sage/issues/29705),
+* providing modularized installation with pip ([this major project was started in May 2020 in the Sage codebase](https://github.com/sagemath/sage/issues/29705) and completed in May 2025 in passagemath),
 * establishing first-class membership in the scientific Python ecosystem,
 * giving [clear attribution of upstream projects](https://groups.google.com/g/sage-devel/c/6HO1HEtL1Fs/m/G002rPGpAAAJ),
 * providing independently usable Python interfaces to upstream libraries,
-* providing [platform portability and integration testing services](https://github.com/passagemath/passagemath/issues/704) to upstream projects,
+* offering [platform portability and integration testing services](https://github.com/passagemath/passagemath/issues/704) to upstream projects,
 * [inviting collaborations](https://github.com/passagemath/passagemath/issues/700) with upstream projects,
 * [building a professional, respectful, inclusive community](https://groups.google.com/g/sage-devel/c/xBzaINHWwUQ),
 * [empowering Sage users to participate in the scientific Python ecosystem](https://github.com/passagemath/passagemath/issues/248) by publishing packages,
-* developing a port to [Pyodide](https://pyodide.org/en/stable/) for serverless deployment with Javascript,
-* developing a [native Windows port](https://github.com/passagemath/passagemath/issues/1044).
+* developing a port to [Pyodide](https://pyodide.org/en/stable/) (WebAssembly) for serverless deployment with Javascript,
+* developing a [native Windows port](https://github.com/passagemath/passagemath/issues/1044)
+  (passagemath 10.6.1 publishes the first pip-installable packages for native Windows on x86_64).
 
 [Full documentation](https://doc.sagemath.org/html/en/index.html) is available online.
 
