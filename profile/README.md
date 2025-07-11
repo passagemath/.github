@@ -31,7 +31,7 @@ passagemath community
 
 Join [passagemath.discourse.group](https://passagemath.discourse.group/) for help and discussions.
 
-Join the BlueSky platform and follow [@passagemath.org](https://bsky.app/profile/passagemath.org) to receive announcements.
+Subscribe to https://groups.google.com/g/sage-packaging, or join the BlueSky platform and follow [@passagemath.org](https://bsky.app/profile/passagemath.org), to receive announcements.
 
 [People all around the globe](https://www.sagemath.org/development-map.html) have contributed to the
 development of SageMath since 2005, and hence of passagemath.
@@ -49,7 +49,7 @@ If you received an invitation to join the organization, note that we send out in
 * to authors and contributors of downstream packages that depend on SageMath / passagemath, as an invitation to the passagemath ecosystem,
 * to downstream packagers.
 
-As of 2025-07-04, the passagemath GitHub organization has 110 members.
+As of 2025-07-11, the passagemath GitHub organization has 111 members.
 Becoming a member of the passagemath GitHub organization is free and does not imply any obligations other than to adhere to the organization's Code of Conduct.
 Membership is [private](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership) by default, i.e., only shown to other members of the organization.
 
