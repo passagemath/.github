@@ -11,7 +11,8 @@ and MATLAB".
 The passagemath fork uses the motto "Creating a Free Passage Between the Scientific Python Ecosystem
 and Mathematical Software Communities." It was created in October 2024 with the following goals:
 
-* providing modularized installation with pip ([this major project was started in May 2020 in the Sage codebase](https://github.com/sagemath/sage/issues/29705) and completed in May 2025 in passagemath),
+* providing modularized installation with pip
+  - [this major project was started in May 2020 in the Sage codebase](https://github.com/sagemath/sage/issues/29705) and completed in May 2025 in passagemath,
 * establishing first-class membership in the scientific Python ecosystem,
 * giving [clear attribution of upstream projects](https://groups.google.com/g/sage-devel/c/6HO1HEtL1Fs/m/G002rPGpAAAJ),
 * providing independently usable Python interfaces to upstream libraries,
@@ -21,7 +22,7 @@ and Mathematical Software Communities." It was created in October 2024 with the 
 * [empowering Sage users to participate in the scientific Python ecosystem](https://github.com/passagemath/passagemath/issues/248) by publishing packages,
 * developing a port to [Pyodide](https://pyodide.org/en/stable/) (WebAssembly) for serverless deployment with Javascript,
 * developing a [native Windows port](https://github.com/passagemath/passagemath/issues/1044)
-  (passagemath 10.6.1 publishes the first pip-installable packages for native Windows on x86_64).
+  - passagemath 10.6.1 publishes the first pip-installable packages for native Windows on x86_64.
 
 [Full documentation](https://doc.sagemath.org/html/en/index.html) is available online.
 
@@ -31,7 +32,7 @@ passagemath community
 
 Join [passagemath.discourse.group](https://passagemath.discourse.group/) for help and discussions.
 
-Subscribe to https://groups.google.com/g/sage-packaging, or join the BlueSky platform and follow [@passagemath.org](https://bsky.app/profile/passagemath.org), to receive announcements.
+Join the BlueSky platform and follow [@passagemath.org](https://bsky.app/profile/passagemath.org) to receive announcements.
 
 [People all around the globe](https://www.sagemath.org/development-map.html) have contributed to the
 development of SageMath since 2005, and hence of passagemath.
@@ -49,7 +50,7 @@ If you received an invitation to join the organization, note that we send out in
 * to authors and contributors of downstream packages that depend on SageMath / passagemath, as an invitation to the passagemath ecosystem,
 * to downstream packagers.
 
-As of 2025-07-11, the passagemath GitHub organization has 111 members.
+As of 2025-07-11, the passagemath GitHub organization had 111 members.
 Becoming a member of the passagemath GitHub organization is free and does not imply any obligations other than to adhere to the organization's Code of Conduct.
 Membership is [private](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership) by default, i.e., only shown to other members of the organization.
 
