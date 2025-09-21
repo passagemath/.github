@@ -51,7 +51,7 @@ If you received an invitation to join the organization, note that we send out in
 * to authors and contributors of downstream packages that depend on SageMath / passagemath, as an invitation to the passagemath ecosystem,
 * to downstream packagers.
 
-As of 2025-08-20, the passagemath GitHub organization had 120 members.
+As of 2025-09-20, the passagemath GitHub organization had 128 members.
 Becoming a member of the passagemath GitHub organization is free and does not imply any obligations other than to adhere to the organization's Code of Conduct.
 Membership is [private](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-membership-in-organizations/publicizing-or-hiding-organization-membership) by default, i.e., only shown to other members of the organization.
 
