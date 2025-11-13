@@ -93,7 +93,7 @@ passagemath attempts to support all major Linux distributions and recent version
 macOS. Use of the full functionality on Windows currently requires the use of Windows
 Subsystem for Linux or virtualization.
 
-Complete sets of binary wheels are provided on PyPI for Python versions 3.10.x-3.13.x
+Complete sets of binary wheels are provided on PyPI for Python versions 3.10.x-3.14.x
 for Linux and macOS, both for the x86_64 and ARM architectures.
 Binary wheels for native Windows (x86_64) are gradually made available in the passagemath
 10.6.x series.
