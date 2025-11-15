@@ -11,7 +11,7 @@ and MATLAB".
 The passagemath fork uses the motto "Creating a Free Passage Between the Scientific Python Ecosystem
 and Mathematical Software Communities." It was created in October 2024 with the following goals:
 
-* providing modularized installation with pip
+* providing instant, modularized installation with pip from binary wheels
   - [this major project was started in May 2020 in the Sage codebase](https://github.com/sagemath/sage/issues/29705) and completed in passagemath 10.5.29 (May 2025),
 * establishing first-class membership in the scientific Python ecosystem,
 * giving [clear attribution of upstream projects](https://groups.google.com/g/sage-devel/c/6HO1HEtL1Fs/m/G002rPGpAAAJ),
@@ -130,6 +130,7 @@ Other installation modes and details
 The [passagemath/passagemath repository](https://github.com/passagemath/passagemath) README provides
 detailed instructions:
 
+- [Running passagemath in the cloud](https://github.com/passagemath/passagemath?tab=readme-ov-file#running-passagemath-in-the-cloud-google-colab) (Google Colab, molab.marimo.io)
 - [Using the modularized distributions](https://github.com/passagemath/passagemath?tab=readme-ov-file#modularized-distributions) (some are available for native Windows)
 - [Building from source](https://github.com/passagemath/passagemath?tab=readme-ov-file#building-from-source-table-of-contents)
 - [Traditional installation from source as Sage-the-Distribution](https://github.com/passagemath/passagemath?tab=readme-ov-file#traditional-installation-from-source-as-sage-the-distribution)
