@@ -11,7 +11,7 @@ and MATLAB".
 The passagemath fork uses the motto "Creating a Free Passage Between the Scientific Python Ecosystem
 and Mathematical Software Communities." It was created in October 2024 with the following goals:
 
-* providing instant, modularized installation with pip from binary wheels
+* providing instant, modularized installation with pip from binary wheels,
   - [this major project was started in May 2020 in the Sage codebase](https://github.com/sagemath/sage/issues/29705) and completed in passagemath 10.5.29 (May 2025),
 * establishing first-class membership in the scientific Python ecosystem,
 * giving [clear attribution of upstream projects](https://groups.google.com/g/sage-devel/c/6HO1HEtL1Fs/m/G002rPGpAAAJ),
@@ -21,8 +21,16 @@ and Mathematical Software Communities." It was created in October 2024 with the 
 * [building a professional, respectful, inclusive community](https://groups.google.com/g/sage-devel/c/xBzaINHWwUQ),
 * [empowering Sage users to participate in the scientific Python ecosystem](https://github.com/passagemath/passagemath/issues/248) by publishing packages,
 * developing a port to [Pyodide](https://pyodide.org/en/stable/) (WebAssembly) for serverless deployment with Javascript,
-* developing a [native Windows port](https://github.com/passagemath/passagemath/issues/1044)
-  - passagemath 10.6.1 (July 2025) published the first pip-installable packages for native Windows on x86_64.
+* developing a [native Windows port](https://github.com/passagemath/passagemath/issues/1044),
+  - passagemath 10.6.1 (July 2025) published the first pip-installable wheel packages for native Windows on x86_64,
+  - passagemath packages became available in the [MSYS2 software distribution](https://packages.msys2.org/search?t=pkg&q=passagemath) in November 2025.
+
+Moreover, the passagemath project:
+
+* provides a stable, frequently updated version of the Sage distribution,
+* integrates additional mathematical software, notably Macaulay2, a full set of GAP packages,
+  and the Combinatorial Matrix Recognition library,
+* curates a library of Sage user packages.
 
 [Full documentation](https://passagemath.org/docs/latest/html/en/index.html) is available online.
 
