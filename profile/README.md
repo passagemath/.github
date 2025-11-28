@@ -99,7 +99,7 @@ Binary wheels for native Windows (x86_64) are gradually made available in the pa
 10.6.x series.
 
 Unless you need to install passagemath into a specific existing environment, we recommend
-to create and activate a fresh virtual environment over a suitable Python (3.10.x-3.13.x),
+to create and activate a fresh virtual environment over a suitable Python (3.10.x-3.14.x),
 for example `~/passagemath-venv/`:
 
 ```bash session
