@@ -35,6 +35,56 @@ Moreover, the passagemath project:
 [Full documentation](https://passagemath.org/docs/latest/html/en/index.html) is available online.
 
 
+Full installation of 🐙passagemath from binary wheels on PyPI
+------------------------------------------------------------
+
+passagemath attempts to support all major Linux distributions and recent versions of
+macOS. Use of the full functionality on Windows currently requires the use of Windows
+Subsystem for Linux or virtualization.
+
+Complete sets of binary wheels are provided on PyPI for Python versions 3.10.x-3.14.x
+for Linux and macOS, both for the x86_64 and ARM architectures.
+Binary wheels for native Windows (x86_64) are gradually made available in the passagemath
+10.6.x series.
+
+Unless you need to install passagemath into a specific existing environment, we recommend
+to create and activate a fresh virtual environment over a suitable Python (3.10.x-3.14.x),
+for example `~/passagemath-venv/`:
+
+```bash session
+$ python3 --version
+Python 3.12.7
+$ python3 -m venv ~/passagemath-venv
+$ source ~/passagemath-venv/bin/activate
+```
+
+Then install the meta-package [![PyPI: passagemath-standard](https://img.shields.io/pypi/v/passagemath-standard.svg?label=🐙passagemath-standard)](https://pypi.python.org/pypi/passagemath-standard)
+
+```bash session
+(passagemath-venv) $ pip install -v --prefer-binary passagemath-standard
+```
+
+Start the Sage REPL:
+
+```bash session
+(passagemath-venv) $ sage
+```
+
+Alternatively, use a Python or IPython REPL, or use the Python kernel or the provided Sage kernel in Jupyter.
+
+
+Other installation modes and details
+------------------------------------
+
+The [passagemath/passagemath repository](https://github.com/passagemath/passagemath) README provides
+detailed instructions:
+
+- [Running passagemath in the cloud](https://github.com/passagemath/passagemath?tab=readme-ov-file#running-passagemath-in-the-cloud-google-colab) (Google Colab, molab.marimo.io)
+- [Using the modularized distributions](https://github.com/passagemath/passagemath?tab=readme-ov-file#modularized-distributions) (some are available for native Windows)
+- [Building from source](https://github.com/passagemath/passagemath?tab=readme-ov-file#building-from-source-table-of-contents)
+- [Traditional installation from source as Sage-the-Distribution](https://github.com/passagemath/passagemath?tab=readme-ov-file#traditional-installation-from-source-as-sage-the-distribution)
+
+
 🐙passagemath community
 ----------------------
 
@@ -95,55 +145,6 @@ There are many ways to contribute: Follow the #issue numbers to see how you can 
 |Downstream deployments            | Gitpod [#33113](https://github.com/sagemath/sage/issues/33113) | – [Running 🐙passagemath in the cloud (Google Colab, marimo)](https://github.com/passagemath/passagemath?tab=readme-ov-file#running-passagemath-in-the-cloud-google-colab), <br>– [CoCalc](https://cocalc.com/?utm_source=trac.sagemath.org), [SageCell](https://sagecell.sagemath.org/), [Binder](https://github.com/sagemath/sage-binder-env)
 |Downstream of downstream          | Devcontainers [#33671](https://github.com/sagemath/sage/issues/33671), [#34363](https://github.com/sagemath/sage/issues/34363) | [Lean / mathlib](https://github.com/passagemath/passagemath/issues/1025)
 
-
-Full installation of 🐙passagemath from binary wheels on PyPI
-------------------------------------------------------------
-
-passagemath attempts to support all major Linux distributions and recent versions of
-macOS. Use of the full functionality on Windows currently requires the use of Windows
-Subsystem for Linux or virtualization.
-
-Complete sets of binary wheels are provided on PyPI for Python versions 3.10.x-3.14.x
-for Linux and macOS, both for the x86_64 and ARM architectures.
-Binary wheels for native Windows (x86_64) are gradually made available in the passagemath
-10.6.x series.
-
-Unless you need to install passagemath into a specific existing environment, we recommend
-to create and activate a fresh virtual environment over a suitable Python (3.10.x-3.14.x),
-for example `~/passagemath-venv/`:
-
-```bash session
-$ python3 --version
-Python 3.12.7
-$ python3 -m venv ~/passagemath-venv
-$ source ~/passagemath-venv/bin/activate
-```
-
-Then install the meta-package [![PyPI: passagemath-standard](https://img.shields.io/pypi/v/passagemath-standard.svg?label=🐙passagemath-standard)](https://pypi.python.org/pypi/passagemath-standard)
-
-```bash session
-(passagemath-venv) $ pip install -v --prefer-binary passagemath-standard
-```
-
-Start the Sage REPL:
-
-```bash session
-(passagemath-venv) $ sage
-```
-
-Alternatively, use a Python or IPython REPL, or use the Python kernel or the provided Sage kernel in Jupyter.
-
-
-Other installation modes and details
-------------------------------------
-
-The [passagemath/passagemath repository](https://github.com/passagemath/passagemath) README provides
-detailed instructions:
-
-- [Running passagemath in the cloud](https://github.com/passagemath/passagemath?tab=readme-ov-file#running-passagemath-in-the-cloud-google-colab) (Google Colab, molab.marimo.io)
-- [Using the modularized distributions](https://github.com/passagemath/passagemath?tab=readme-ov-file#modularized-distributions) (some are available for native Windows)
-- [Building from source](https://github.com/passagemath/passagemath?tab=readme-ov-file#building-from-source-table-of-contents)
-- [Traditional installation from source as Sage-the-Distribution](https://github.com/passagemath/passagemath?tab=readme-ov-file#traditional-installation-from-source-as-sage-the-distribution)
 
 🐙passagemath repositories
 -------------------------
