@@ -96,9 +96,7 @@ On Mastodon / in the Fediverse, follow [@passagemath.org@bsky.brid.gy](https://m
 [People all around the globe](https://www.sagemath.org/development-map.html) have contributed to the
 development of SageMath since 2005, and hence of passagemath.
 
-See [CONTRIBUTING.md](https://github.com/passagemath/passagemath/blob/main/CONTRIBUTING.md) for how you can contribute.
-
-passagemath is a major integrating force in the [mathematical software landscape](https://github.com/passagemath#passagemath-in-the-mathematical-software-landscape).
+See [CONTRIBUTING.md](https://github.com/passagemath/passagemath/blob/main/CONTRIBUTING.md) for how you can contribute: to passagemath itself or the surrounding [mathematical software landscape](https://github.com/passagemath#passagemath-in-the-mathematical-software-landscape).
 
 ### Invitations to the passagemath GitHub organization
 
