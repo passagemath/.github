@@ -94,7 +94,7 @@ Join the [Scientific Python Discord server](https://discord.com/invite/vur45CbwM
 Join the BlueSky platform and follow [@passagemath.org](https://bsky.app/profile/passagemath.org) to receive announcements.
 On Mastodon / in the Fediverse, follow [@passagemath.org@bsky.brid.gy](https://mathstodon.xyz/@passagemath.org@bsky.brid.gy).
 
-Star our main [GitHub repository passagemath/passagemath](https://github.com/passagemath/passagemath)!
+Star our main GitHub repository: ![GitHub Repo stars](https://img.shields.io/github/stars/passagemath/passagemath?style=flat&logo=github&label=Repo%20passagemath%2Fpassagemath%20stars)
 
 Join [passagemath.discourse.group](https://passagemath.discourse.group/) for help and discussions.
 
