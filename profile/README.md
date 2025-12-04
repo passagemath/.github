@@ -88,10 +88,13 @@ detailed instructions:
 🐙passagemath community
 ----------------------
 
-Join [passagemath.discourse.group](https://passagemath.discourse.group/) for help and discussions.
+Join the [Scientific Python Discord server](https://discord.com/invite/vur45CbwMz) and visit the
+[#passagemath](https://discord.com/channels/786703927705862175/1446246458910310541) channel.
 
 Join the BlueSky platform and follow [@passagemath.org](https://bsky.app/profile/passagemath.org) to receive announcements.
 On Mastodon / in the Fediverse, follow [@passagemath.org@bsky.brid.gy](https://mathstodon.xyz/@passagemath.org@bsky.brid.gy).
+
+Join [passagemath.discourse.group](https://passagemath.discourse.group/) for help and discussions.
 
 [People all around the globe](https://www.sagemath.org/development-map.html) have contributed to the
 development of SageMath since 2005, and hence of passagemath.
