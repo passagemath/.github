@@ -86,7 +86,7 @@ The [passagemath/passagemath repository](https://github.com/passagemath/passagem
 detailed instructions:
 
 - [Running passagemath in the cloud](https://github.com/passagemath/passagemath?tab=readme-ov-file#running-passagemath-in-the-cloud-google-colab) (Google Colab, molab.marimo.io)
-- [Using the modularized distributions](https://github.com/passagemath/passagemath?tab=readme-ov-file#modularized-distributions) (some are available for native Windows)
+- [Using the modularized distributions](https://github.com/passagemath/passagemath?tab=readme-ov-file#modularized-distributions) (some are available for native Windows and/or for serverless in-browser use via WebAssembly)
 - [Building from source](https://github.com/passagemath/passagemath?tab=readme-ov-file#building-from-source-table-of-contents)
 - [Traditional installation from source as Sage-the-Distribution](https://github.com/passagemath/passagemath?tab=readme-ov-file#traditional-installation-from-source-as-sage-the-distribution)
 
