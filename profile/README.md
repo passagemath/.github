@@ -95,7 +95,7 @@ detailed instructions:
 ----------------------
 
 Join the [Scientific Python Discord server](https://discord.com/invite/vur45CbwMz) and visit the
-[#passagemath](https://discord.com/channels/786703927705862175/1446246458910310541) channel.
+[#passagemath](https://discord.com/channels/786703927705862175/1446246458910310541) channel. Weekly office hours on Thursdays 11-12 Pacific Time.
 
 Join the BlueSky platform and follow [@passagemath.org](https://bsky.app/profile/passagemath.org) to receive announcements.
 On Mastodon / in the Fediverse, follow [@passagemath.org@bsky.brid.gy](https://mathstodon.xyz/@passagemath.org@bsky.brid.gy).
