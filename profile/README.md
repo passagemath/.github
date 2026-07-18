@@ -67,7 +67,7 @@ $ source ~/passagemath-venv/bin/activate
 Then install the meta-package [![PyPI: passagemath-standard](https://img.shields.io/pypi/v/passagemath-standard.svg?label=🐙passagemath-standard)](https://pypi.python.org/pypi/passagemath-standard)
 
 ```bash session
-(passagemath-venv) $ pip install -v --prefer-binary passagemath-standard
+(passagemath-venv) $ pip install -v passagemath-standard
 ```
 
 Start the Sage REPL:
